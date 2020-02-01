@@ -3,7 +3,9 @@
 这是一个用soui做的简单demo,用于个人练习和娱乐
 
 SOUI教程：https://home.cnblogs.com/u/setoutsoft/
+
 SOUI论坛：http://www.soui.vip/
+
 在编译SOUI时一定要看论坛里的视频教程
 
 1.2020/2/1 11：30
