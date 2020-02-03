@@ -2,6 +2,11 @@
   <UIDEF>
     <file name="XML_INIT" path="xml\init.xml"  />
   </UIDEF>
+  <values>
+	<file name="string" path="values\string.xml" />
+	<file name="color" path="values\color.xml" />
+	<file name="skin" path="values\skin.xml" />
+  </values>
   <LAYOUT>
     <file name="XML_MAINWND" path="xml\dlg_main.xml"  />
   </LAYOUT>
