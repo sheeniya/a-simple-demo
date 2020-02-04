@@ -42,7 +42,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(IncludePath)</IncludePath>
+    <IncludePath>E:\soui3\soui\bin;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -54,18 +54,18 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>E:\soui\SOUI\include;E:\soui\config;E:\soui\utilities\include;E:\soui\components;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\soui3\soui\SOUI\include;E:\soui3\soui\config;E:\soui3\soui\utilities\include;E:\soui3\soui\components;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>E:\soui\bin\souid.lib;E:\soui\bin\utilitiesd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>E:\soui\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>E:\soui3\soui\bin\soui3d.lib;E:\soui3\soui\bin\utilitiesd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\soui3\soui\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>E:\soui\bin</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\soui3\soui\bin</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
