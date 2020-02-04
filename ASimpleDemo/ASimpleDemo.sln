@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloworld", "helloworld\helloworld.vcxproj", "{EB97F570-7DD0-4B2A-9FC3-E48C4F6580FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "soui3", "..\..\soui3\soui\SOUI\soui3.vcxproj", "{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{EB97F570-7DD0-4B2A-9FC3-E48C4F6580FB}.Debug|Win32.Build.0 = Debug|Win32
 		{EB97F570-7DD0-4B2A-9FC3-E48C4F6580FB}.Release|Win32.ActiveCfg = Release|Win32
 		{EB97F570-7DD0-4B2A-9FC3-E48C4F6580FB}.Release|Win32.Build.0 = Release|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Debug|Win32.Build.0 = Debug|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Release|Win32.ActiveCfg = Release|Win32
+		{A278536F-80DF-3C47-A1FD-14BAACB6B8C6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
