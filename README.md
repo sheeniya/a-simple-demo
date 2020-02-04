@@ -21,3 +21,5 @@ SOUI论坛：http://www.soui.vip/
 改用soui3实现。
 
 注：改用soui3要修改项目属性。要删除旧souid.dll和utilities.dll文件。参考：https://blog.csdn.net/m0_37290785/article/details/80734329
+
+界面修改：去掉最大化和恢复按钮；禁止改变大小；去掉界面标题文字。
