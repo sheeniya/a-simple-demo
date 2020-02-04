@@ -20,4 +20,4 @@ SOUI论坛：http://www.soui.vip/
 
 改用soui3实现。
 
-注：改用soui3要修改项目属性。要删除旧souid.dll和utilities.dll文件
+注：改用soui3要修改项目属性。要删除旧souid.dll和utilities.dll文件。参考：https://blog.csdn.net/m0_37290785/article/details/80734329
