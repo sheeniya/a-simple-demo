@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0"?>
 <skin>
+	<imglist name="skin_bkimg_login" src="bkimg:skin_pic_login" states="1"/>
 </skin>

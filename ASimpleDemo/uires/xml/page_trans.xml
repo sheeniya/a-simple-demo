@@ -1,0 +1,25 @@
+<include>
+	<text pos="0,10,-0,-50" multiLines="1" valign="top" clipClient="1" font="adding:-2">
+	博客地址：https://www.cnblogs.com/setoutsoft/p/3931429.html
+	
+	1.翻译文件
+	2.程序中使用
+	    SComLoader transLoader;
+		
+		CAutoRefPtr《SOUI::ITranslatorMgr》 trans;  //多语言翻译模块，由translator.dll提供	
+		transLoader.CreateInstance(COM_TRANSLATOR, (IObjRef**)(取地址符)trans);		
+		SApplication *theApp=new SApplication(pRenderFactory,hInstance);//SOUI APP
+		
+		//这些语句需要放在theApp->AddResProvider(pResProvider);之后
+		if (trans)
+		{//加载语言翻译包
+			theApp->SetTranslator(trans);
+			pugi::xml_document xmlLang;
+			if (theApp->LoadXmlDocment(xmlLang, _T("translator:lang_cn")))
+			{
+				.........
+			}
+		}
+	</text>
+	<text pos="0,-40,-0,-0" colorText="#990011" font="adding:2" align="center">将鼠标移动到主界面关闭按钮上显示“关闭窗口”是通过翻译实现的</text>
+</include>

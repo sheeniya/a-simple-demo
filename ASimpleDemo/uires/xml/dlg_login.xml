@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SOUI>
+  <root skin="skin_bkimg_login" width="800" height="500">
+	<!--整个开始界面都是一个caption,以便点击任何一个地方都能移动界面-->
+	<caption pos="0,0,-0,-0">
+		<!--关闭和最小化按钮-->
+		<imgbtn name="btn_close" skin="_skin.sys.btn.close" pos="-45,0" tip="关闭" animate="1" />
+		<imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-83,0" animate="1" />
+		<!--开始界面的文字-->
+		<text pos="250,130,600,200" colorText="#d4af37" font="adding:35,bold:1">
+			Simple Demo
+		</text>
+		<!--登陆按钮-->
+		<window name="x_login" pos="350,250,450,280" colorText="#0000ff" colorTextHover="#ff00ff" colorTextPush="#ff0000" cursor="hand" font="adding:10,bold:1">
+			开始使用
+		</window>
+	</caption>
+	
+  </root>
+</SOUI>

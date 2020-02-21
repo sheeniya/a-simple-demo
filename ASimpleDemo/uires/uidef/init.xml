@@ -1,18 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <UIDEF>
-  <font face="宋体" size="15"/>
-  
-  <!--定义字符串表-->
-  <string src="values:string"/>
-  <!--定义颜色值表-->
-  <color src="values:color"/>
-  <!--定义全局skin对象-->
-  <skin src="values:skin"/>
-
-  <style>
-    <class name="normalbtn" font="" colorText="#385e8b" colorTextDisable="#91a7c0" textMode="25" cursor="hand" margin-x="0"/>
-  </style>
-
-  <objattr>
-  </objattr>
+<font face="宋体" size="15" />
+<string src="values:string" />
+<color src="values:color" />
+<skin src="values:skin" />
+<style>
+<class name="normalbtn" font="" colorText="#385e8b" colorTextDisable="#91a7c0" textMode="25" cursor="hand" margin-x="0" />
+</style>
+<objattr />
 </UIDEF>

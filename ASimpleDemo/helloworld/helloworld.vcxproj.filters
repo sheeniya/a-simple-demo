@@ -33,6 +33,15 @@
     <ClInclude Include="SimpleDemo.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LoginWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -44,6 +53,9 @@
     <ClCompile Include="MainWnd.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LoginWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="helloworld.rc">
@@ -51,10 +63,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="small.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="helloworld.ico">
+    <Image Include="..\uires\image\test.ico">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

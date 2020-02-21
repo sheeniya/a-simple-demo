@@ -8,18 +8,6 @@ SOUI论坛：http://www.soui.vip/
 
 在编译SOUI时一定要看论坛里的视频教程
 
-1.2020/2/1 
+release版：https://pan.baidu.com/s/1_ybskDll_IGHKhXQCAn-uQ
 
-目前代码全部来源于https://www.cnblogs.com/setoutsoft/p/3928361.html，  后续将以此为基础做自己的demo
-
-2.2020/2/3
-
-对界面及与界面相关的文件做了一点修改，现在界面上只有窗口名称、最大化、最小化、关闭按钮和一行文字。
-
-3.2020/2/4
-
-改用soui3实现。
-
-注：改用soui3要修改项目属性。要删除旧souid.dll和utilities.dll文件。参考：https://blog.csdn.net/m0_37290785/article/details/80734329
-
-界面修改：去掉最大化和恢复按钮；禁止改变大小；去掉界面标题文字。
+提取码：vp1l

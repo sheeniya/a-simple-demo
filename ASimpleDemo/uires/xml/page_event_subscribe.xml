@@ -1,0 +1,22 @@
+<include>
+	<text pos="0,10,-0,-50" multiLines="1" valign="top" font="adding:-2">
+		博客地址：https://www.cnblogs.com/setoutsoft/p/3930419.html
+		
+		1.//UI控件的事件及响应函数映射表
+		EVENT_MAP_BEGIN()
+			EVENT_ID_COMMAND(1, OnClose)
+			EVENT_NAME_COMMAND(L"btn_insert_gif",OnBtnInsertGif2RE)
+		EVENT_MAP_END() 
+		
+		2.采用事件订阅的方式响应控件事件
+		//找到列表控件
+		SListCtrl *pList=FindChildByName2《SListCtrl》(L"lc_test");
+		//列表控件的唯一子控件即为表头控件
+        SWindow *pHeader=pList->GetWindow(GSW_FIRSTCHILD);
+		//向表头控件订阅表明点击事件，并把它和OnListHeaderClick函数相连。
+        pHeader->GetEventSet()->subscribeEvent(EVT_HEADER_CLICK,Subscriber((取地址符)CMainDlg::OnListHeaderClick,this));
+		//表头点击事件处理函数
+        bool CMainDlg::OnListHeaderClick(EventArgs *pEvtBase)
+	</text>
+	<button name="test_event_subscribe" pos="300,-50,400,-20">事件订阅</button>
+</include>

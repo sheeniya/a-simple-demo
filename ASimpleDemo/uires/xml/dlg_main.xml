@@ -1,11 +1,24 @@
-<SOUI margin="20,5,5,5">
-  <root colorBkgnd="#000000ff"  width="1000" height="600">
-    <caption pos="0,0,-0,30">     
-      <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>           
-      <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-83,0" animate="1" />
-    </caption>
-    <window pos="5,30,-5,-5" colorBkgnd="#000000">
-      <text pos="|-60,|0" colorText="#ffffff">一个空荡荡的界面</text>
-    </window>
-  </root>
+<?xml version="1.0"?>
+<SOUI margin="20,5,5,5" trCtx="dlg_main">
+	<root width="800" height="500">
+		<caption pos="0,0,-0,30" colorBkgnd="#2F4F4F">
+			<text pos="10,0,150,-0" colorText="#d4af37">
+				Simple Demo
+			</text>
+			<!--关闭和最小化按钮-->
+			<imgbtn name="btn_close" skin="_skin.sys.btn.close" pos="-45,0" tip="关闭" animate="1" />
+			<imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-83,0" animate="1" />		
+		</caption>
+		
+		<listctrl name="list_projects" pos="0,30,150,-0" headerHeight="0" itemHeight="30" hotTrack="1" colorBkgnd="#87CEFA" colorItemBkgnd="#87CEFA" colorItemBkgnd2="#87CEFA" colorItemHotBkgnd="#87CEEB" colorItemSelBkgnd="#00BFFF" colorText="#FFF8DC">
+			<headerStyle align="left" itemSwapEnable="1">
+				<items>
+					<item width="150" weight="1">name</item>
+				</items>
+			</headerStyle>
+		</listctrl>
+		
+		<window pos="150,30,-0,-0" colorBkgnd="#dddddd">
+		</window>
+	</root>
 </SOUI>
